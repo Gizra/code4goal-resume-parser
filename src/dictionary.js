@@ -5,12 +5,12 @@ var _ = require('underscore');
 module.exports = {
   titles: {
     objective: ['objective', 'objectives'],
-    summary: ['summary'],
-    technology: ['technology', 'technologies'],
-    experience: ['experience'],
-    education: ['education'],
-    skills: ['skills', 'Skills & Expertise', 'technology', 'technologies'],
-    languages: ['languages'],
+    summary: ['summary', 'תמצית'],
+    experience: ['experience' ,'נסיון', 'נסיון תעסוקתי', 'נסיון מקצועי'],
+    education: ['education', 'השכלה', 'קורס מקצועי', 'קורסים', 'הסמכות'],
+    army: ['שירות צבאי', 'צבא'],
+    skills: ['skills', 'Skills & Expertise', 'technology', 'technologies', 'ידע מקצועי', 'כישורים', 'שפות תכנות'],
+    languages: ['languages', 'שפות'],
     courses: ['courses'],
     projects: ['projects'],
     links: ['links'],
